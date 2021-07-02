@@ -1,0 +1,25 @@
+{
+  "editor.scrollBeyondLastLine": false,
+  // 折り返しの行を左端をどう揃えるか
+  "editor.wrappingIndent": "indent",
+  // 入力中に補完候補をだすかどうか　以下の設定でコメントの中でもどこでも補完候補を出せるようになる
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  // 自動フォーマット
+  "editor.formatOnType": true,
+  // 貼り付け時に自動でフォーマットしてくれる
+  "editor.formatOnPaste": true,
+  // ファイル保存時にフォーマットする
+  "editor.formatOnSave": true,
+  // 選択した部分のドラッグアンドドロップを許可するかどうか
+  "editor.dragAndDrop": false,
+  // デフォルトフォーマッターとしてprettierを指定
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 保存時にimportを整理
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}

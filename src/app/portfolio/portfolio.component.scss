@@ -5,17 +5,54 @@
 }
 
 .p-tag:after {
-  content: "";
+  content: '';
   display: block;
   height: 4px;
   background: -webkit-linear-gradient(to right, rgb(255, 186, 115), #ffb2b2);
   background: linear-gradient(to right, rgb(255, 186, 115), #ffb2b2);
 }
-.container {
-  display: flex;
+
+.col-sm-7 {
+  margin: auto;
+  text-align: center;
 }
-.itemList {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.itemExp {
+  text-align: left;
+}
+
+.item1Img {
+  background-image: url('../../assets/img/photo_for_todo-app.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  margin: 2em auto;
+  top: 20px;
+  background-color: #fff5ee;
+  box-shadow: 0 0 5px 1px #ccc;
+}
+
+.item2Img {
+  background-image: url('../../assets/img/coming-soon.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  margin: 2em auto;
+  top: 20px;
+  background-color: #fff5ee;
+  box-shadow: 0 0 5px 1px #ccc;
+}
+
+.item3Img {
+  background-image: url('../../assets/img/coming-soon.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  margin: 2em auto;
+  top: 20px;
+  background-color: #fff5ee;
+  box-shadow: 0 0 5px 1px #ccc;
 }

@@ -1,5 +1,5 @@
 .p-profile {
-  background-image: url("../../assets/img/photo_for_home.jpg");
+  background-image: url('../../assets/img/photo_for_home.jpg');
   width: 120%;
   height: 540px;
   background-size: cover;
@@ -15,7 +15,7 @@
   font-size: 40px;
 }
 .p-tag:after {
-  content: "";
+  content: '';
   display: block;
   height: 4px;
   background: -webkit-linear-gradient(to right, rgb(255, 186, 115), #ffb2b2);

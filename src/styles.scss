@@ -1,4 +1,4 @@
-@import "~bootstrap/dist/css/bootstrap.css";
+@import '~bootstrap/dist/css/bootstrap.css';
 
 body {
   margin: 0;
@@ -39,9 +39,10 @@ a:hover {
 }
 
 .p-wrapper::before {
-  content: "";
+  content: '';
   background: #f9b205;
   height: 100vh;
+  min-height: 100%;
   width: 25vw;
   position: absolute;
   z-index: -1;
